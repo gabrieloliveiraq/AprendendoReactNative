@@ -1,5 +1,10 @@
+import { NavigationContainer } from "@react-navigation/native";
 import { MyDrawer } from "./drawer.routes";
 
 export function Routes() {
-  return <MyDrawer></MyDrawer>;
+  return (
+    <NavigationContainer>
+      <MyDrawer></MyDrawer>
+    </NavigationContainer>
+  );
 }
