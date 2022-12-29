@@ -16,7 +16,7 @@ export function LetsLearn() {
   }
 
   return (
-    <View style={{ flex: 1, backgroundColor: "#f2f2f2" }}>
+    <View style={{ backgroundColor: "#f2f2f2", paddingTop: 40, padding: 8 }}>
       <TouchableOpacity style={styles.js} onPress={openJs}>
         <Text style={{ textAlign: "center", fontSize: 15, fontWeight: "500" }}>
           O Java Script
