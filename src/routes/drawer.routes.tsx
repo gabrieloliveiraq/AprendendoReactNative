@@ -3,10 +3,10 @@ import { Ionicons } from "@expo/vector-icons";
 import { FontAwesome5 } from "@expo/vector-icons";
 import { Text } from "react-native";
 
-import { LetsLearn } from "../screens/LetsLearn";
-import { AboutJs } from "../screens/AboutJs";
-import { AboutReactNative } from "../screens/AboutReactNative";
-import { HelpDeveloper } from "../screens/HelpDeveloper";
+import { LetsLearn } from "../screens/LetsLearn/LetsLearn";
+import { AboutJs } from "../screens/AboutJs/AboutJs";
+import { AboutReactNative } from "../screens/AboutReactNative/AboutReactNative";
+import { HelpDeveloper } from "../screens/HelpDeveloper/HelpDeveloper";
 import { MyStack } from "./stack.routes";
 import { MaterialIcons } from "@expo/vector-icons";
 

@@ -1,10 +1,10 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text } from "react-native";
 
-import { AboutJs } from "../screens/AboutJs";
-import { AboutReactNative } from "../screens/AboutReactNative";
-import { HelpDeveloper } from "../screens/HelpDeveloper";
-import { LetsLearn } from "../screens/LetsLearn";
+import { AboutJs } from "../screens/AboutJs/AboutJs";
+import { AboutReactNative } from "../screens/AboutReactNative/AboutReactNative";
+import { HelpDeveloper } from "../screens/HelpDeveloper/HelpDeveloper";
+import { LetsLearn } from "../screens/LetsLearn/LetsLearn";
 
 const { Screen, Navigator } = createNativeStackNavigator();
 

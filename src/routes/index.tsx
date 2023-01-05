@@ -1,10 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { MyDrawer } from "./drawer.routes";
+import { MyTab } from "./tab.routes";
 
 export function Routes() {
   return (
     <NavigationContainer>
-      <MyDrawer></MyDrawer>
+      <MyTab></MyTab>
     </NavigationContainer>
   );
 }

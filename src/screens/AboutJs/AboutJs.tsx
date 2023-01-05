@@ -1,6 +1,6 @@
 import React from "react";
 import { ScrollView, Text, View } from "react-native";
-import { HtmlCssJs } from "../components/HtmlCssJs";
+import { HtmlCssJs } from "../../components/HtmlCssJs";
 
 export function AboutJs() {
   return (
